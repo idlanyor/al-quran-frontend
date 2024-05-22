@@ -6,7 +6,7 @@ const user = {
   name: 'Roidev',
   email: 'prasbhara0604@gmail.com',
   imageUrl:
-    'https://quran.kemenag.go.id/assets/images/defaults/ic_quran_logo.png',
+    '/ic_quran.png',
 }
 const navigation = [
   { name: 'Al- Qur`an', href: '#', current: true },
@@ -46,7 +46,7 @@ export default function Navbar() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-8 w-8"
-                        src="https://quran.kemenag.go.id/assets/images/defaults/ic_quran_logo.png"
+                        src="/ic_quran.png"
                         alt="Your Company"
                       />
                     </div>
